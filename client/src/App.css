@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+* {
+  font-family: "Share Tech Mono", monospace;
+  color: white;
+}
+
+body {
+  width: 50%;
+  margin: 0 auto;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  color: whitesmoke;
+  font-size: 100px;
+  font-weight: 300;
+}
+
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.task {
+  padding: 15px;
+  margin: 5px;
+  list-style: none;
+  background: rgba(245, 245, 245, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-todo {
+  width: 85%;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.taskicon {
+  float: right;
+  margin-right: 10px;
+}
+
+.fa-trash::before {
+  color: white;
+  font-size: medium;
+  transition: color, font-size, 300ms ease-in-out;
+}
+
+.fa-trash:hover::before,
+.fa-trash:focus::before {
+  color: red;
+  font-size: larger;
+}
+
+.fa-pen::before {
+  color: white;
+  font-size: medium;
+  transition: color, font-size, 300ms ease-in-out;
+}
+
+.fa-pen:hover::before,
+.fa-pen:focus::before {
+  color: lightgreen;
+  font-size: larger;
+}
+
+article {
+  display: grid;
+}
+
+.button {
+  padding: 10px;
+  margin: 5px 10px;
+  font-size: 14px;
+  color: white;
+  background: black;
+  cursor: pointer;
+  border: 0.1px solid white;
+  border-radius: 5px;
+  transition: color, background, 400ms ease-in-out;
+}
+
+.button:hover {
+  color: black;
+  background: white;
+}
+
+.button.selected {
+  color: black;
+  background: white;
+}
+
+.clear {
+  padding: 10px;
+  margin: 5px 10px;
+  font-size: 14px;
+  color: white;
+  background: black;
+  cursor: pointer;
+  border: 0.1px solid white;
+  border-radius: 5px;
+}
