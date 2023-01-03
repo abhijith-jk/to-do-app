@@ -1,4 +1,4 @@
-A simple to-do list app developed using React JS library and uses Redux for state management.
+A simple to-do list app developed using React JS library and uses Redux for state management and uses Express for backend and MongoDB as the database.
 
 Here are some screenshots of the final result :
 ![All Tasks Tab](./Screenshots/AllTasksScreen.png)
